@@ -1,6 +1,10 @@
+import IndexPage from "./components/IndexPage";
+
 const About = () => {
   return (
-    <h1>About</h1>
+    <IndexPage title="About" description="Page about">
+      <h1>About</h1>
+    </IndexPage>
   );
 }
 
